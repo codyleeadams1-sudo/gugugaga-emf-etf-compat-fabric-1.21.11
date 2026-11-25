@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "gugugaga_emf_etf_compat",
+  "version": "${version}",
+  "name": "Gugugaga EMF/ETF Compatibility",
+  "description": "Optional companion for Gugugaga Remastered. Detects EMF and ETF and declares optional compatibility suggestions; it does not replace the main mod's entity renderer.",
+  "authors": ["Gugugaga Remastered project"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.gugugaga.compat.GuguCompat"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "gugugaga": "*"
+  },
+  "suggests": {
+    "entity_model_features": "*",
+    "entity_texture_features": "*"
+  }
+}
